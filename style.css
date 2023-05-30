@@ -1,0 +1,329 @@
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+
+}
+.search{
+  margin-top: 4%;
+  margin-right: 4%;
+}
+.footer1{
+  display: flex;
+   gap: 60px; 
+  background-color: black;
+  color: white;
+  margin-top: 5%;
+  padding-top: 4%;
+}
+#Category{
+  
+  border-style: none;
+  padding: 10px 100px 10px 40px;
+  margin-right: 10%;
+}
+#Category2{
+  /* border-radius: 5%; */
+  border-style: none;
+  padding: 6px 600px 6px 40px;
+}
+
+#searchicon{
+  margin-top: 6px;
+}
+#ordernow{
+    
+  border-style: none;
+  padding: 15px 10px 15px 10px;
+  background-color: yellow;
+  margin-right: 2%;
+}
+#ordernow1{
+  border-style: none;
+  padding: 10px 40px 10px 40px;
+  border-color: white;
+}
+#trutsedgadget{
+  font-size: xx-large;
+  
+  font-weight: bolder;
+}
+.GADGETS{
+  margin-top: 4%;
+  display: flex;
+  /* background-color: lightblue;
+  background-color: lightpink; */
+}
+.gadget img{
+  width: 500px;
+  height: 300px;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+#buttons{
+  display: flex;
+  gap: 3%;
+}
+.icons{
+  margin-top: 76px;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+}
+.icons img{
+  width: 40px;
+}
+.headphones1{
+  background-image: url(./images/headphones.jpg);
+  /* width: 50%; */
+  background-repeat: no-repeat;
+ padding: 30px 200px;
+
+ 
+
+}
+.headphone_categories{
+  display: flex;
+  gap: 100px;
+  /* background-color: lightblue; */
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+.headphones2{
+  background-image: url(./images/cam.jpg);
+  background-repeat: no-repeat;
+  padding: 60px 200px;
+}
+.Devices
+{
+  border: solid 2px;
+  margin-right: 30px;
+  padding: 20px 20px;
+  border-style: none;
+  gap: 100px;
+}
+
+
+
+.nextlevel{
+  margin-top: 10%;
+  display: flex;
+  gap: 20%;
+}
+.nextlevel img{
+  width: 500px;
+}
+.profiles{
+  margin-top: -80px;
+  opacity: 40rem;
+
+}
+.testimonials{
+  display: flex;
+  /* margin-left: 13%; */
+}
+.client{
+  margin-left: 4%;
+}
+#ourclient{
+  margin-top: 13%;
+}
+.underline{
+ background-color: black;
+  border-top: black solid 4px;
+  margin-left: 12%;
+  margin-right: 10%;
+}
+#emailaddress{
+  padding: 0% 5%;
+  border-style: none;
+  border-radius: 15px;
+  background-color: yellow;
+}
+/* #emailaddress button{
+  margin-bottom: 15px;
+} */
+#send{
+  
+  margin-left: 5px;
+}
+.subscribe{
+  gap: 14%;
+  margin-top: 10%;
+  display: flex;
+}
+#testimonials{
+ font-weight: bolder;
+ text-align: center;
+ font-size: x-large;
+}
+/* **********producst************************ */
+#products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+  .products{
+      border: solid 2px black;
+      margin-top: 3%;
+      border-radius: 5px;
+      text-align: center;
+  }
+  #color{
+    color: yellow;
+  }
+  #color2{
+    background-color: yellow;
+    border-style: none;
+  }
+  .GADGETS{
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 30%, #FFCC70 66%, #ffffff 100%);
+  }
+  .Devices{
+    border: solid 1px black;
+  opacity: 20rem;
+  margin-left: 14%;
+  }
+  #products {
+    gap: 3%;
+  margin-top: 15px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-bottom: 14%;
+
+  }
+  #products img{
+    width: 300px;
+    height: 200px;
+  }
+  #products button{
+    border-style: none;
+    padding: 14px 14px;
+    background-color: yellow;
+  }
+  .deals{
+    display: flex;
+    gap: 20%;
+    color: lightblue;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 4%;
+  }
+  #time{
+    background-color: black;
+    color: yellow;
+    
+  }
+  #mybuttons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+
+  /* ***************media queries*********************** */
+  @media (max-width: 767px) {
+    *{
+        padding: 0%;
+        margin-left:0% ;
+        box-sizing: border-box;
+       
+    }
+    .navbar{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    #color2{
+      margin-left: 0%;
+      /* display: inline; */
+      padding: 0%;
+    }
+    .search{
+      width: 10px;
+      height: 10px;
+    display: block;
+    margin-bottom: 12px;
+      /* display: grid;
+      grid-template-columns: repeat(1,1fr); */
+    }
+    #Category{
+  
+      border-style: none;
+      
+       margin-right: 0%;
+     }
+     #Category2{
+      padding: 0% 0%;
+       border-style: none; 
+       
+     } 
+
+  .GADGETS{
+    /* width: auto; */
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .icons{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 13px;
+    }
+    .headphone_categories{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-left: 0%; 
+     } 
+   .nextlevel{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-bottom: 13%;
+    }
+    #testimonials{
+      text-align: left;
+    }
+    .testimonials{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    } 
+     .subscribe{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .footer1{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    } 
+    #buttons{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin-right: 0%;
+      margin-left: 0%;
+      padding: 4px 4px;
+    } 
+    .TRUSTED{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    /* #mybuttons{
+      width: 10px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding: 0%;
+      margin-left: 0%;
+    } */
+    .gadget{
+      margin-left: -60%;
+    }
+    
+
+   } 
+  
+ 
+  
+  
